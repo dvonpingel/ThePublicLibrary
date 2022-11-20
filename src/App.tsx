@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react'
+import Main from './components/Main'
 
 function App() {
-  return <div className="App">The Public Library</div>;
+  return (
+    <div>
+      <Main />
+    </div>
+  )
 }
 
-export default App;
+export default App
