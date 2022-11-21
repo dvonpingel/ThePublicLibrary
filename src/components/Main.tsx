@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
-import Sidebar from './Navigation/Navigation'
 import { useNavigate } from 'react-router'
 import { Route, Routes, useLocation } from 'react-router-dom'
+
 import ComponentsTab from './Docs/ComponentsTab'
+import Sidebar from './Navigation/Navigation'
 
 const Main = () => {
   const location = useLocation(),
